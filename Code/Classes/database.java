@@ -34,8 +34,7 @@ public class database
 			try {
 				Class.forName(driver);
 			} catch (ClassNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			
 			}
 
 			String db = "jdbc:odbc:IMS";
